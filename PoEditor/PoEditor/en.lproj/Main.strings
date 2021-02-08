@@ -1,6 +1,11 @@
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU"; */
-"main_view_test" = "Label";
-"main_view_test2" = "Label2";
 /*Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU";*/
 "Aup-qw-IQU.text" = "eng";
+
+/*Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU";*/
+"main_view_test" = "Label";
+
+/*Fuzzy*/
+"main_view_test2" = "Label2";
+">>>>>> 9351e951ebf8f1dd79e0e604032827960c3d7b5" = "";
+"main_view_test3" = "labelEnglish";
