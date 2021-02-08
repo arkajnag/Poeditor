@@ -4,3 +4,4 @@
 "main_view_test2" = "Label2";
 /*Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU";*/
 "Aup-qw-IQU.text" = "swedish";
+"main_view_test3" = "Labelswedish";
