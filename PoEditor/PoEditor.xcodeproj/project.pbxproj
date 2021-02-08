@@ -15,6 +15,7 @@
 		052DFE1D25D1BDD2007B32D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE1B25D1BDD2007B32D5 /* LaunchScreen.storyboard */; };
 		052DFE2825D1BDD2007B32D5 /* PoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DFE2725D1BDD2007B32D5 /* PoEditorTests.swift */; };
 		052DFE3325D1BDD2007B32D5 /* PoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DFE3225D1BDD2007B32D5 /* PoEditorUITests.swift */; };
+		052DFE5225D1D179007B32D5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE5025D1D179007B32D5 /* Main.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		052DFE2E25D1BDD2007B32D5 /* PoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		052DFE3225D1BDD2007B32D5 /* PoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoEditorUITests.swift; sourceTree = "<group>"; };
 		052DFE3425D1BDD2007B32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052DFE4E25D1D0B7007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		052DFE4F25D1D0B8007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		052DFE5125D1D179007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		052DFE0F25D1BDD1007B32D5 /* PoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				052DFE5025D1D179007B32D5 /* Main.strings */,
 				052DFE1025D1BDD1007B32D5 /* AppDelegate.swift */,
 				052DFE1225D1BDD1007B32D5 /* SceneDelegate.swift */,
 				052DFE1425D1BDD1007B32D5 /* ViewController.swift */,
@@ -214,6 +219,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = 052DFE0425D1BDD1007B32D5;
 			productRefGroup = 052DFE0E25D1BDD1007B32D5 /* Products */;
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052DFE1D25D1BDD2007B32D5 /* LaunchScreen.storyboard in Resources */,
+				052DFE5225D1D179007B32D5 /* Main.strings in Resources */,
 				052DFE1A25D1BDD2007B32D5 /* Assets.xcassets in Resources */,
 				052DFE1825D1BDD1007B32D5 /* Main.storyboard in Resources */,
 			);
@@ -301,6 +308,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				052DFE1725D1BDD1007B32D5 /* Base */,
+				052DFE4E25D1D0B7007B32D5 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +317,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				052DFE1C25D1BDD2007B32D5 /* Base */,
+				052DFE4F25D1D0B8007B32D5 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		052DFE5025D1D179007B32D5 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052DFE5125D1D179007B32D5 /* sv */,
+			);
+			name = Main.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
