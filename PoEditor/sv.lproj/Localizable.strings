@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  PoEditor
+
+  Created by Sujata C on 08/02/2021.
+  Copyright © 2021 Sujata C. All rights reserved.
+*/
+/* Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU"; */
+"main_view_test" = "Labels";
+"main_view_test2" = "Labels2";
+/*Class = "UILabel"; text = "Label"; ObjectID = "Aup-qw-IQU";*/
+"Aup-qw-IQU.text" = "fghj";

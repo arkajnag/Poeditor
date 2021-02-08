@@ -16,6 +16,7 @@
 		052DFE2825D1BDD2007B32D5 /* PoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DFE2725D1BDD2007B32D5 /* PoEditorTests.swift */; };
 		052DFE3325D1BDD2007B32D5 /* PoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DFE3225D1BDD2007B32D5 /* PoEditorUITests.swift */; };
 		052DFE5225D1D179007B32D5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE5025D1D179007B32D5 /* Main.strings */; };
+		052DFE5525D1D5C7007B32D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE5725D1D5C7007B32D5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		052DFE3425D1BDD2007B32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		052DFE4E25D1D0B7007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		052DFE4F25D1D0B8007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		052DFE5125D1D179007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		052DFE5625D1D5C7007B32D5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		052DFE5825D1D5CC007B32D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		052DFE0425D1BDD1007B32D5 = {
 			isa = PBXGroup;
 			children = (
+				052DFE5725D1D5C7007B32D5 /* Localizable.strings */,
 				052DFE0F25D1BDD1007B32D5 /* PoEditor */,
 				052DFE2625D1BDD2007B32D5 /* PoEditorTests */,
 				052DFE3125D1BDD2007B32D5 /* PoEditorUITests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052DFE5525D1D5C7007B32D5 /* Localizable.strings in Resources */,
 				052DFE1D25D1BDD2007B32D5 /* LaunchScreen.storyboard in Resources */,
 				052DFE5225D1D179007B32D5 /* Main.strings in Resources */,
 				052DFE1A25D1BDD2007B32D5 /* Assets.xcassets in Resources */,
@@ -325,9 +329,17 @@
 		052DFE5025D1D179007B32D5 /* Main.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				052DFE5125D1D179007B32D5 /* sv */,
+				052DFE5825D1D5CC007B32D5 /* en */,
 			);
 			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		052DFE5725D1D5C7007B32D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052DFE5625D1D5C7007B32D5 /* sv */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
