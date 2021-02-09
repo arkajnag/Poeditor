@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TelegraphKit",
+        "repositoryURL": "https://github.com/nicephoton/TelegraphKit.git",
+        "state": {
+          "branch": null,
+          "revision": "1405aca63dc8bca333585b5e9528efd1fbb13154",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		052DFE3325D1BDD2007B32D5 /* PoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052DFE3225D1BDD2007B32D5 /* PoEditorUITests.swift */; };
 		052DFE5225D1D179007B32D5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE5025D1D179007B32D5 /* Main.strings */; };
 		052DFE5525D1D5C7007B32D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052DFE5725D1D5C7007B32D5 /* Localizable.strings */; };
+		05D1171F25D3193A00359D97 /* TelegraphKit in Frameworks */ = {isa = PBXBuildFile; productRef = 05D1171E25D3193A00359D97 /* TelegraphKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D1171F25D3193A00359D97 /* TelegraphKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = PoEditor;
+			packageProductDependencies = (
+				05D1171E25D3193A00359D97 /* TelegraphKit */,
+			);
 			productName = PoEditor;
 			productReference = 052DFE0D25D1BDD1007B32D5 /* PoEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +230,9 @@
 				sv,
 			);
 			mainGroup = 052DFE0425D1BDD1007B32D5;
+			packageReferences = (
+				05D1171D25D3193A00359D97 /* XCRemoteSwiftPackageReference "TelegraphKit" */,
+			);
 			productRefGroup = 052DFE0E25D1BDD1007B32D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -615,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05D1171D25D3193A00359D97 /* XCRemoteSwiftPackageReference "TelegraphKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicephoton/TelegraphKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05D1171E25D3193A00359D97 /* TelegraphKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05D1171D25D3193A00359D97 /* XCRemoteSwiftPackageReference "TelegraphKit" */;
+			productName = TelegraphKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 052DFE0525D1BDD1007B32D5 /* Project object */;
 }
